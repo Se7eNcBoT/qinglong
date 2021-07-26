@@ -31,4 +31,4 @@ jobs:
           git config user.name "Se7eNcBoT"
           git config user.email "sumchak@foxmail.com"
           git commit --allow-empty -m "copy static at $(date +'%Y-%m-%d %H:%M:%S')"
-          git push --force --quiet "hgithub.com/Se7eNcBoT/qinglong-static.git" master:master
+          git push --force --quiet "https://github.com/Se7eNcBoT/qinglong-static.git" master:master
